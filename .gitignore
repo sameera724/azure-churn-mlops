@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+*.pkl
+data/
+.azureml/
+outputs/
+logs/
+.sweep_job_name.txt
+.model_version.txt
+.endpoint_info.txt
