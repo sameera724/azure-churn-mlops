@@ -1,3 +1,0 @@
-SUBSCRIPTION_ID=b3f80dcc-5f6a-418f-a89c-636a11984af4
-RESOURCE_GROUP=rg-churn-mlops
-WORKSPACE_NAME=aml-churn-mlops
