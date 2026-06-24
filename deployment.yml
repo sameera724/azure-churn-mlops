@@ -1,0 +1,10 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: churn-v1
+endpoint_name: churn-pred-api
+model: azureml:churn-xgboost-classifier:1
+code_configuration:
+  code: ./src
+  scoring_script: score.py
+environment: azureml:churn-training-env:2
+instance_type: Standard_DS2_v2
+instance_count: 1

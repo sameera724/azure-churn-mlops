@@ -1,7 +1,6 @@
 import argparse
 import os
 import mlflow
-import mlflow.sklearn
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -111,18 +110,13 @@ def main():
         importance_path = os.path.join(args.model_output, "feature_importance.csv")
         os.makedirs(args.model_output, exist_ok=True)
         importance_df.to_csv(importance_path, index=False)
-        mlflow.log_artifact(importance_path)
+        #mlflow.log_artifact(importance_path)
 
         # ── Save model ────────────────────────────────────────────────────────
         model_path = os.path.join(args.model_output, "model.pkl")
         joblib.dump(pipeline, model_path)
 
-        # Log as MLflow model — enables automatic batch inference without score.py
-        mlflow.sklearn.log_model(
-            pipeline,
-            artifact_path="churn_model",
-            registered_model_name=None  # We register manually for control
-        )
+       
 
         print(f"\nModel saved to: {model_path}")
 

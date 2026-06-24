@@ -1,0 +1,21 @@
+feature,importance
+Contract_Month-to-month,0.2946096
+InternetService_Fiber optic,0.09575508
+TechSupport_No,0.067135364
+OnlineSecurity_No,0.051958326
+PhoneService_Yes,0.03268971
+Contract_Two year,0.030414239
+InternetService_DSL,0.029368408
+tenure,0.026298743
+PaymentMethod_Electronic check,0.022092223
+TechSupport_Yes,0.021469165
+gender_Male,0.020186568
+PaperlessBilling_No,0.018920012
+StreamingMovies_Yes,0.01743804
+OnlineBackup_No,0.01653878
+PaperlessBilling_Yes,0.015213013
+MultipleLines_No,0.01520846
+TotalCharges,0.015092586
+DeviceProtection_Yes,0.014847397
+StreamingTV_No,0.014513979
+StreamingTV_Yes,0.014240984
