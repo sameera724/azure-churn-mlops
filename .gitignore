@@ -8,4 +8,5 @@ outputs/
 logs/
 .sweep_job_name.txt
 .model_version.txt
-.endpoint_info.txt
+.endpoint_info.txtmodel/
+.DS_Store
