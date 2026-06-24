@@ -163,7 +163,7 @@ Stakeholder Reporting
 *(Screenshots below — full dashboard available in `/screenshots`)*
 
 **Page 1 — Churn Overview**
-![Churn Overview](screenshots/overview.png)
+![Churn Overview](screenshots/Overview.png)
 
 **Page 2 — Customer Segments**
 ![Customer Segments](screenshots/Customer_segments.png)
